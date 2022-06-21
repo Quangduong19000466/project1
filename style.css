@@ -306,3 +306,56 @@ ion-icon{
 }
 
 
+
+/*
+page 5
+*/
+
+
+.page5{
+    background-color: #AD00FF;
+    padding: 120px 0;
+    margin-bottom: 132px;
+    margin-top: 130px;
+}
+.h25{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 2;
+    padding: 0 5px;
+    margin-bottom: 30px
+    ;
+}
+.a6{
+    color: #FFF;
+    border: 3px solid #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+
+}
+
+
+/*
+PAGE 6
+*/
+
+.h61{
+    text-align: center;
+    
+}
+.hr3{
+    width: 50px;
+    height: 3px;
+    background-color: #AD00FF;
+    margin: 30px auto;
+    border: 0;
+    position: relative;
+    margin-top: 34px;
+    margin-bottom: 57px;
+}
