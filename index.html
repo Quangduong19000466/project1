@@ -7,26 +7,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="https://public-assets.envato-static.com/icons/themeforest.net/apple-touch-icon-72x72-precomposed.png"     image/x-icon">
     <title>Crucio - Responsive One Page HTML Template Preview - ThemeForest</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylejs.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+
+    <!--hiệu ứng -->
+
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
 </head>
 <body>
 
-<header class="header-" style="">
+<header class="header-">
         <div class="logo" style="height: 54px; background-color: #262626;">
             <a  class="logotop" href="https://themeforest.net/item/crucio-responsive-one-page-html-template/19091998?_ga=2.58165354.1366686124.1655695693-1586711874.1655695693"><img src="https://public-assets.envato-static.com/assets/logos/envato_market-a5ace93f8482e885ae008eb481b9451d379599dfed24868e52b6b2d66f5cf633.svg" 
-                    style="width: 152px; margin-top: 17px; margin-left: 24px;" ></a>
+                    style="width: 152px; margin-top: 17px; margin-left: 24px; border: none;" ></a>
             <a href="index.html" class="buynow" style=" color: white; float: right; margin-right: 24px; 
                     margin-top: 17px; text-decoration: none; width:80px; height: 30px; display: block; background-color:#6f9a37;
                     text-align: center;padding-top: 7px; border-radius: 5px;" >Buy now</a>
         </div>  
 
         <div class="navigation" style=" background-color:rgba(0,0,0,0.4);">
-            <a href="index.html"><img  class="img1" src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/logo_white.png" 
-                style=" padding-bottom: 20px;"></a>
-            <ul>
+            <a href="index.html" class="aimg1" >
+                <img  class="img1" src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/logo_white.png" >
+            </a>
+            <ul style="margin-top: 21px;" class="ul1">
                 <li><a href="" style="color: #C64CFF">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#services">SERVICES</a></li>
@@ -38,9 +48,9 @@
 </header>
 <div>
     <div class="page1" style=" height: 753px;">
-        <h1 class="title1">CRUCIO</h1>
+        <h1 class="title1" data-aos="fade-right" data-aos-duration="3000">CRUCIO</h1>
         <hr class="hr0"/>
-        <h2 class="title2">POWERFUL WEBSITES</h2>
+        <h2 class="title2" data-aos="fade-left" data-aos-duration="3000">POWERFUL WEBSITES</h2>
     </div>
 
     <div class="text-second-center">
@@ -49,7 +59,7 @@
 
     <div id="about" class="page2" >
         <h2 class="title-page2">WELCOM TO <strong style="color: #AD00FF;">CRUCIO</strong></h2>
-        <h3 class="title2-page2">WE CREATE AWESOME WEBSITES</h3>
+        <h3 class="title2-page2" >WE CREATE AWESOME WEBSITES</h3>
         <p class="p-page2">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
         <br> nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat
         <br> nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -82,39 +92,39 @@
             <br> nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in <strong>voluptate</strong> velit esse cillum dolore eu fugiat
             <br> nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     
-        <div class="icon1">
-            <div class="div41">
+        <div class="icon1" >
+            <div class="div41" data-aos="fade-right" data-aos-duration="2000">
                 <ion-icon name="desktop-outline"></ion-icon>
                 <h4 class="h441">WEB DESIGN</h4>
             </div>
-            <div class="div42">
+            <div class="div42" data-aos="fade-right" data-aos-duration="2000">
                 <ion-icon name="flash-outline"></ion-icon>
                 <h4 class="h442">BRAND DESIGN</h4>
             </div>
-            <div class="div43">
+            <div class="div43" data-aos="fade-right" data-aos-duration="2000">
                 <ion-icon name="color-wand-outline"></ion-icon>
                 <h4 class="h443">UI/UX DESIGN</h4>
             </div>
-            <div class="div44">
+            <div class="div44" data-aos="fade-right" data-aos-duration="2000">
                 <ion-icon name="create-outline"></ion-icon>
                 <h4 class="h444">GRAPHIC DESIGN</h4>
             </div>
             
         </div>
-        <div class="icon2">
-            <div class="div45">
+        <div class="icon2" >
+            <div class="div45" data-aos="fade-left" data-aos-duration="3000">
                 <ion-icon name="camera-outline"></ion-icon>
                 <h4 class="h445">PHOTOGRAPHY</h4>
             </div>
-            <div class="div46">
+            <div class="div46" data-aos="fade-left" data-aos-duration="3000">
                 <ion-icon name="videocam-outline"></ion-icon>
                 <h4 class="h446">VIDEO EDITING</h4>
             </div>
-            <div class="div47">
+            <div class="div47" data-aos="fade-left" data-aos-duration="3000">
                 <ion-icon name="pulse-outline"></ion-icon>
                 <h4 class="h447">DATA ANALYSIS</h4>
             </div>
-            <div class="div48">
+            <div class="div48" data-aos="fade-left" data-aos-duration="3000">
                 <ion-icon name="people-outline"></ion-icon>
                 <h4 class="h448">CLIENT ASSISTANCE</h4>
             </div>
@@ -128,10 +138,10 @@
 
     <div class="page5">
         <div>
-            <h2 class="h25">
+            <h2 class="h25" data-aos="fade-right" data-aos-duration="3000">
                 WE CREATE <strong>AWESOME</strong> PROJECTS
             </h2>
-            <a id="a56"class="a6" style="margin-left: 670px ;">GET STARTED</a>
+            <a data-aos="fade-left" data-aos-duration="3000" id="getstart" href="" class="a6" style="margin-left: 670px ; text-decoration: none;">GET STARTED</a>
         </div>
     </div>
 
@@ -144,13 +154,13 @@
         </div>
         <div class="div61">
             <div class="img61">   
-                <img src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/team/team1.jpg" >
+                <img class="img611" src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/team/team1.jpg" >
             </div>
             <div class="img62">  
-                <img src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/team/team2.jpg" >
+                <img class="img612" src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/team/team2.jpg" >
             </div>
-            <div class="img63">
-                <img src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/team/team3.jpg" >
+            <div  class="img63">
+                <img class="img613"  src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/team/team3.jpg" >
             </div>
             
         </div>
@@ -221,7 +231,7 @@
             </a>
         </div>
         <div class="div84">
-            <a class="a81" style="margin-left: 670px ;">LOAD MORE</a>
+            <a class="a81" href="" style="margin-left: 670px ; text-decoration: none;">LOAD MORE</a>
         </div>
         
         
@@ -308,7 +318,7 @@
         <div class="div10-11" style="margin-top: 124px;">
             <input type="text" value="Message *"  style="color: #777; border: none; margin-left: 200px;" >
             <hr class="hr10" style="margin-top: 164px;">
-            <a class="a11">SEND</a>
+            <a class="a11" href="">SEND</a>
 
         </div>
 
@@ -348,5 +358,7 @@
         </div>
     </footer>
 
-    
+    <script>
+        AOS.init();
+      </script>
 </body>

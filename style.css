@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -17,10 +20,8 @@ header{
 }
 
 .navigation{
-    height: 70px;
-  
-   
-}
+    height: 90px;
+  }
 .navigation ul{
 
     float: right;
@@ -30,12 +31,15 @@ header{
     /*align-items: center;*/
     justify-content: space-between;
     padding: 0 20px;
+    margin-right: 20px;
 }
 .navigation ul li {
     margin-right: 60px;
     margin-top: 20px;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
+    transition:all 0.5s ease-in-out;
+
 }
 .navigation ul li a {
     color: #ffffffff;
@@ -48,7 +52,9 @@ header{
     width: 170px;
     margin-left: 60px;
     margin-top: 18px;
+    transition:all 0.5s ease-in-out;
 }
+
 
 
 
@@ -91,7 +97,7 @@ header{
     left: 0;
     right: 0;
     margin: auto;
-    z-index: 999999;
+   /* z-index: 999999;*/
     color: #AD00FF;
     font-weight: 400;
 }
@@ -103,7 +109,7 @@ scroll-down{
     left: 0;
     right: 0;
     margin: auto;
-    z-index: 999999;
+   /* z-index: 999999;*/
 }
 
 .scroll-down{
@@ -114,7 +120,7 @@ scroll-down{
     left: 0;
     right: 0;
     margin: auto;
-    z-index: 999999;
+   /* z-index: 999999;*/
 }
 .scroll-down:before{
     content: '';
@@ -322,10 +328,7 @@ page 5
     text-transform: uppercase;
     padding: 10px 30px;
 }
-a.link-new:hover{
-    background-color: #FFF;
-    color: #111;
-}
+
 
 
 /*
@@ -372,7 +375,20 @@ PAGE 6
     border: none;
     vertical-align: middle;
     box-sizing: border-box;
+    transition:all 1.5s ease-in-out;
+   
 }
+.img62{
+    transition:all 1.5s ease-in-out;
+}
+.img63{
+    transition:all 1.5s ease-in-out;
+}
+.img611:hover,.img612:hover,.img613:hover{
+    transform: scale(1.5);
+    transition:all 1.5s ease-in-out;
+}
+
 
 /* page 7*/
 .page7{
