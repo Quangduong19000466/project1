@@ -1,0 +1,133 @@
+.navigation.sticky{
+    height: 50px;
+    transition:all 0.5s ease-in-out;
+}
+.navigation.sticky .img1   {
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 11px;
+    transition:all 0.5s ease-in-out;
+}
+
+.navigation.sticky .ul1 li{
+    margin-right: 60px;
+    margin-top: -1px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    transition:all 0.5s ease-in-out;
+}
+
+.a6:hover{
+    background-color: white;
+    color: #AD00FF;
+    transition:all 0.4s ease-in-out;
+
+}
+.a10:hover{
+    background-color: white;
+    color: #AD00FF;
+    transition:all 0.4s ease-in-out;
+}
+.a81:hover{
+    background-color: black;
+    color: white;
+    transition:all 0.4s ease-in-out;
+
+}
+.a91:hover{
+    background-color: #AD00FF;
+    color: white;
+    transition:all 0.4s ease-in-out;
+
+}
+.a11:hover{
+    background-color: #AD00FF;
+    color:  white;
+    transition:all 0.4s ease-in-out;
+
+}   
+.buynow:hover {
+    background-color: #375d06;
+    color: #fff;
+}
+
+.end2 a ion-icon:hover{
+    color: #AD00FF;
+    transition:all 0.4s ease-in-out;
+}
+.div3-10 a img:hover{
+    opacity: 1;
+    transition:all 0.4s ease-in-out;
+}
+
+
+.content a ion-icon:hover{
+    color: black;
+    transition:all 0.4s ease-in-out;
+}
+
+
+.img61:hover .img611{
+    transform: scale(1.5);
+    transition:all 1.5s ease-in-out;
+    
+}
+
+.img62:hover .img612{
+    transform: scale(1.5);
+    transition:all 1.5s ease-in-out;
+   
+}
+
+.img63:hover .img613{
+    transform: scale(1.5);
+    transition:all 1.5s ease-in-out;
+    
+}
+
+
+.img61:hover .overlay{
+    top : 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(173,0,255,0.8);
+    transition:all 1s ease-in-out;
+    
+}
+.img62:hover .overlay{
+    top : 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(173,0,255,0.8);
+    transition:all 1s ease-in-out;
+    
+}
+.img63:hover .overlay{
+    top : 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(173,0,255,0.8);
+    transition:all 1s ease-in-out;
+}
+
+
+ .project:hover .img8{
+    transform: scale(1.3);
+    transition:all 1.3s ease-in-out;
+}
+
+.project:hover .contentproject{
+    top : 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(173,0,255,0.8);
+    transition:all 0.5s ease-in-out;
+}
